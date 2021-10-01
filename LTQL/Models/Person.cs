@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
+using System.Web.Mvc;
 
 namespace LTQL.Models
 {
@@ -11,5 +12,6 @@ namespace LTQL.Models
         [Key]
         public string PersonID { get; set; }
         public string PersonName { get; set; }
+        [AllowHtml]
     }
 }

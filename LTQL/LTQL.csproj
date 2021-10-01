@@ -129,6 +129,8 @@
     <Compile Include="Controllers\EmployeesController.cs" />
     <Compile Include="Controllers\EmpNewController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\People1Controller.cs" />
+    <Compile Include="Controllers\PeopleController.cs" />
     <Compile Include="Controllers\PersonController.cs" />
     <Compile Include="Controllers\StdNewController.cs" />
     <Compile Include="Controllers\StudentController.cs" />
@@ -563,6 +565,16 @@
     <Content Include="Views\Employees\Index.cshtml" />
     <Content Include="Views\StdNew\Index.cshtml" />
     <Content Include="Views\StdNew\Create.cshtml" />
+    <Content Include="Views\People\Create.cshtml" />
+    <Content Include="Views\People\Delete.cshtml" />
+    <Content Include="Views\People\Details.cshtml" />
+    <Content Include="Views\People\Edit.cshtml" />
+    <Content Include="Views\People\Index.cshtml" />
+    <Content Include="Views\People1\Create.cshtml" />
+    <Content Include="Views\People1\Delete.cshtml" />
+    <Content Include="Views\People1\Details.cshtml" />
+    <Content Include="Views\People1\Edit.cshtml" />
+    <Content Include="Views\People1\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
