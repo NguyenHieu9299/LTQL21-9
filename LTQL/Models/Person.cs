@@ -11,7 +11,8 @@ namespace LTQL.Models
     {
         [Key]
         public string PersonID { get; set; }
-        public string PersonName { get; set; }
         [AllowHtml]
+        public string PersonName { get; set; }
+
     }
 }

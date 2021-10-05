@@ -126,10 +126,10 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\EmployeesController.cs" />
     <Compile Include="Controllers\EmpNewController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\People1Controller.cs" />
     <Compile Include="Controllers\PeopleController.cs" />
     <Compile Include="Controllers\PersonController.cs" />
     <Compile Include="Controllers\StdNewController.cs" />
@@ -158,8 +158,10 @@
       <DependentUpon>202109140630108_crate_table_employee.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Account.cs" />
     <Compile Include="Models\AutoGenerateKey.cs" />
     <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\Encrytion.cs" />
     <Compile Include="Models\LamTrinhQuanLyDBContext.cs" />
     <Compile Include="Models\Person.cs" />
     <Compile Include="Models\SinhVien.cs" />
@@ -570,14 +572,10 @@
     <Content Include="Views\People\Details.cshtml" />
     <Content Include="Views\People\Edit.cshtml" />
     <Content Include="Views\People\Index.cshtml" />
-    <Content Include="Views\People1\Create.cshtml" />
-    <Content Include="Views\People1\Delete.cshtml" />
-    <Content Include="Views\People1\Details.cshtml" />
-    <Content Include="Views\People1\Edit.cshtml" />
-    <Content Include="Views\People1\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Account\" />
     <Folder Include="Views\EmpNew\" />
   </ItemGroup>
   <ItemGroup>
